@@ -22,7 +22,7 @@ Sigue estos pasos para levantar el proyecto en tu máquina local.
 
 ~~~powershell
 git clone https://github.com/deus-bit/credit-card-lead-prediction-service.git
-cd credit_card_api
+cd credit-card-lead-prediction-service
 ~~~
 
 ### 3. Configuración del Entorno Virtual (Instalación de Dependencias)
@@ -53,4 +53,3 @@ curl -X 'POST' \
   "is_active": "Yes"
 }'
 ~~~
-}
