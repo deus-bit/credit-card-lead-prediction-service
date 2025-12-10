@@ -27,7 +27,7 @@ cd credit-card-lead-prediction-service
 
 ### 3. Configuración del Entorno Virtual (Instalación de Dependencias)
 ~~~powershell
-python -m venv venv
+python -m venv .venv
 .venv\Scripts\activate
 pip install -r requirements.txt
 ~~~
