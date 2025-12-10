@@ -1,12 +1,12 @@
-# 💳 Credit Card Lead Prediction API
+# Credit Card Lead Prediction API
 
-## 🚀 Visión General del Proyecto
+## Visión General del Proyecto
 
 Este proyecto implementa una API utilizando **FastAPI** para predecir si un cliente bancario tiene una alta probabilidad de estar interesado en una tarjeta de crédito.
 
 El modelo de predicción fue entrenado con el dataset **Credit Card Lead Prediction** de Kaggle, utilizando un **RandomForestClassifier** preprocesado para asegurar una alta precisión y una fácil integración en sistemas de terceros a través de un endpoint RESTful.
 
-## 🛠️ Requisitos Previos
+## Requisitos Previos
 
 Necesitas tener instalado lo siguiente:
 
@@ -14,17 +14,16 @@ Necesitas tener instalado lo siguiente:
 * **pip** (Administrador de paquetes de Python)
 * **Git** (Opcional, si clonas el repositorio)
 
-## 📦 Configuración e Instalación Local
+## Configuración e Instalación Local
 
 Sigue estos pasos para levantar el proyecto en tu máquina local.
 
-### 1. Clonar el Repositorio (Opcional)
+### 1. Clonar el Repositorio
 
-Si el proyecto está en un repositorio:
-
-```bash
-git clone <URL_DEL_REPOSITORIO>
+~~~powershell
+git clone https://github.com/deus-bit/credit-card-lead-prediction-service.git
 cd credit_card_api
+~~~
 
 ### 3. Configuración del Entorno Virtual (Instalación de Dependencias)
 ~~~powershell
@@ -54,3 +53,4 @@ curl -X 'POST' \
   "is_active": "Yes"
 }'
 ~~~
+}
